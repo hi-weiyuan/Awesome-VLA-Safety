@@ -6,7 +6,7 @@
 ---
 
 This repository provides a **comprehensive and structured resource** for VLA safety, based on our survey:   
-📄 **[Safety of Vision-Language-Action Models: A Comprehensive Survey](#)**  
+📄 **[Safety of Vision-Language-Action Models: A Survey from Lifecycle Perspectives](#)**  
 
 **Vision-Language-Action (VLA) models** enable embodied agents to perceive, reason, and act in real-world environments through unified end-to-end multimodal policies.  
 As VLA models are increasingly deployed in real-world environments, **ensuring their safety has become a critical concern**, as failures or malicious behaviors may lead to severe physical harm and broader societal consequences.
@@ -262,29 +262,15 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | EMNLP | [Do What? Teaching Vision-Language-Action Models to Reject the Impossible](https://arxiv.org/abs/2508.16292) | 2025 | Hsieh et al. | None
 
 
-
-
----
-
-# 🔍 Open Challenges
-
-- Safety benchmarks  
-- Multimodal alignment  
-- Long-horizon robustness  
-- Data scalability  
-- Governance  
-
----
-
 # 📬 Contact
 
 For questions or suggestions, please open an issue.
 
-```bibtex
+<!-- ```bibtex
 @article{yuan2026vla_safety,
   title={Safety of Vision-Language-Action Models: A Comprehensive Survey},
   author={Wei Yuan et al.},
   journal={TPAMI},
   year={2026}
 }
-```
+``` -->
