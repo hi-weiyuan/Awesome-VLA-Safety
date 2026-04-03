@@ -6,7 +6,7 @@
 ---
 
 This repository provides a **comprehensive and structured resource** for VLA safety, based on our survey:   
-📄 **[Safety of Vision-Language-Action Models: A Survey from Lifecycle Perspectives](#)**  
+📄 **[Safety of Vision-Language-Action Models: A Survey from Lifecycle Perspectives](https://www.researchgate.net/publication/403473142_Safety_of_Vision-Language-Action_Models_A_Survey_from_Lifecycle_Perspectives)**  
 
 **Vision-Language-Action (VLA) models** enable embodied agents to perceive, reason, and act in real-world environments through unified end-to-end multimodal policies.  
 As VLA models are increasingly deployed in real-world environments, **ensuring their safety has become a critical concern**, as failures or malicious behaviors may lead to severe physical harm and broader societal consequences.
