@@ -149,7 +149,7 @@ The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 
 ---
 
-# ⚙️ Training Safety
+# 📈 Training Safety
 
 ## Adversarial Scenarios
 ### Pretraining-Inherited & Finetuning Risks  
