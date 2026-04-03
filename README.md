@@ -153,7 +153,7 @@ The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 
 ## Adversarial Scenarios
 ### Pretraining-Inherited & Finetuning Risks  
-Note: most data poisoning attacks need to revise the training process to strengthen their adversarial effects. Therefore, this part may have large overlaps with [Training Data Poisoning](###training-data-poisoning).
+Note: most data poisoning attacks need to revise the training process to strengthen their adversarial effects. Therefore, this part may have large overlaps with [Training Data Poisoning](#training-data-poisoning).
 
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
