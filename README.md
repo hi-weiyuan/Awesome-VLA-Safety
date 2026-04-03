@@ -43,7 +43,6 @@ If you have relevant papers, feel free to submit a pull request:
 - [Data Safety](#-data-safety)
 - [Training Safety](#-training-safety)
 - [Deployment Safety](#-deployment-safety)
-- [Open Challenges](#-open-challenges)
 - [Contact](#-contact)
 
 ---
