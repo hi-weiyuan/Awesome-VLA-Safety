@@ -135,7 +135,7 @@ The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 ### Data Quality  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
-|IEEE RA-L | [PointVLA: Injecting the 3D World Into Vision-Language-Action Models](https://arxiv.org/abs/2411.00508) | 2026 | Li et al. | [Link](https://pointvla.github.io/)
+|IEEE RA-L | [PointVLA: Injecting the 3D World Into Vision-Language-Action Models](https://arxiv.org/abs/2503.07511) | 2026 | Li et al. | [Link](https://pointvla.github.io/)
 | Preprint | [SpatialVLA: Exploring Spatial Representations for Visual-Language-Action Model](https://arxiv.org/abs/2501.15830) | 2025 | Qu et al. | [Link](https://spatialvla.github.io/)
 | RSS | [CLIP-RT: Learning Language-Conditioned Robotic Policies from Natural Language Supervision](https://arxiv.org/abs/2411.00508) | 2025 | Kang et al. | [Link](https://clip-rt.github.io/)
 | ICML | [ReinboT: Amplifying Robot Visual-Language Manipulation with Reinforcement Learning](https://proceedings.mlr.press/v267/zhang25dr.html) | 2025 | Zhang et al. | None
