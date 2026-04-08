@@ -172,7 +172,7 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | ICASSP | [CARE: Multi-Task Pretraining for Latent Continuous Action Representation in Robot Control](https://arxiv.org/abs/2601.22467) | 2026 | Shi et al. | None
 | CVPR | [SimLingo: Vision-Only Closed-Loop Autonomous Driving with Language-Action Alignment](https://arxiv.org/abs/2503.09594) | 2025 | Renz et al. | None
 | Preprint | [VL-SAFE: Vision-Language Guided Safety-Aware Reinforcement Learning with World Models for Autonomous Driving](https://arxiv.org/abs/2505.16377) | 2025 | Qu et al. | [Link](https://ys-qu.github.io/vlsafe-website/)
-| NIPS | [Safevla: Towards safety alignment of vision-language-action model via constrained learning](https://arxiv.org/abs/2505.16377) | 2025 | Zhang et al. | [Link](https://pku-safevla.github.io/)
+| NIPS | [Safevla: Towards safety alignment of vision-language-action model via constrained learning](https://arxiv.org/abs/2503.03480) | 2025 | Zhang et al. | [Link](https://pku-safevla.github.io/)
 | Preprint | [VLSA: Vision-Language-Action Models with Plug-and-Play Safety Constraint Layer](https://arxiv.org/abs/2512.11891) | 2025 | Hu et al. | [Link](https://vlsa-aegis.github.io/)
 | Preprint | [A framework for benchmarking and aligning task-planning safety in llm-based embodied agents](https://arxiv.org/abs/2504.14650) | 2025 | Huang et al. | None
 | ICRA | [GRAPE: Generalizing Robot Policy via Preference Alignment](https://openreview.net/pdf?id=W64vwmZHdK) | 2025 | Huang et al. | None
@@ -236,7 +236,7 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | Preprint | [How Fast Can I Run My VLA? Demystifying VLA Inference Performance with VLA-Perf](https://arxiv.org/abs/2602.18397v1) | 2026 | Jiang et al. | [Link](https://github.com/NVlabs/vla-perf)
 | ICRA | [Semantically Safe Robot Manipulation: From Semantic Scene Understanding to Motion Safeguards](https://arxiv.org/abs/2410.15185) | 2025 | Brunke et al. | [Link](https://utiasdsl.github.io/semantic-manipulation/)
 | ICRA | [Revla: Reverting visual domain limitation of robotic foundation models](https://ieeexplore.ieee.org/abstract/document/11128823) | 2025 | Dey et al. | [Link](https://insait-institute.github.io/ReVLA/)
-| NIPS | [Safevla: Towards safety alignment of vision-language-action model via constrained learning](https://arxiv.org/abs/2505.16377) | 2025 | Zhang et al. | [Link](https://pku-safevla.github.io/)
+| NIPS | [Safevla: Towards safety alignment of vision-language-action model via constrained learning](https://arxiv.org/abs/2503.03480) | 2025 | Zhang et al. | [Link](https://pku-safevla.github.io/)
 | Preprint | [I-FailSense: Towards General Robotic Failure Detection with Vision-Language Models](https://arxiv.org/abs/2509.16072) | 2025 | Grislain et al. | [Link](https://clemgris.github.io/I-FailSense/)
 | Preprint | [Fast-in-Slow: A Dual-System Foundation Model Unifying Fast Manipulation within Slow Reasoning](https://arxiv.org/abs/2506.01953) | 2025 | Chen et al. | [Link](http://fast-in-slow.github.io/)
 | Preprint | [RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic](https://arxiv.org/abs/2512.21220) | 2025 | Wang et al. | None
@@ -256,7 +256,7 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | Preprint | [Seeing to Act, Prompting to Specify: A Bayesian Factorization of Vision Language Action Policy](https://arxiv.org/abs/2512.11218) | 2025 | Xu et al. | [Link](https://xukechun.github.io/papers/BayesVLA)
 | Preprint | [Ask-to-Clarify: Resolving Instruction Ambiguity through Multi-turn Dialogue](https://arxiv.org/abs/2509.15061) | 2025 | Lin et al. | None
 | RSS | [Ask Before You Act: Token-Level Uncertainty for Intervention in Vision-Language-Action Models](https://openreview.net/forum?id=NX0euXAv98) | 2025 | Karli et al. | None
-| NIPS | [Safevla: Towards safety alignment of vision-language-action model via constrained learning](https://arxiv.org/abs/2505.16377) | 2025 | Zhang et al. | [Link](https://pku-safevla.github.io/)
+| NIPS | [Safevla: Towards safety alignment of vision-language-action model via constrained learning](https://arxiv.org/abs/2503.03480) | 2025 | Zhang et al. | [Link](https://pku-safevla.github.io/)
 | Preprint | [VLSA: Vision-Language-Action Models with Plug-and-Play Safety Constraint Layer](https://arxiv.org/abs/2512.11891) | 2025 | Hu et al. | [Link](https://vlsa-aegis.github.io/)
 | EMNLP | [Do What? Teaching Vision-Language-Action Models to Reject the Impossible](https://arxiv.org/abs/2508.16292) | 2025 | Hsieh et al. | None
 
