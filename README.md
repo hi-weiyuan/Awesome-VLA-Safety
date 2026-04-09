@@ -265,11 +265,13 @@ Note: most data poisoning attacks need to revise the training process to strengt
 
 For questions or suggestions, please open an issue.
 
-<!-- ```bibtex
-@article{yuan2026vla_safety,
-  title={Safety of Vision-Language-Action Models: A Comprehensive Survey},
-  author={Wei Yuan et al.},
-  journal={TPAMI},
-  year={2026}
+If you feel the repository and survey are helpful, please cite us ~ 
+```bibtex
+@article{yuan2026safety,
+  title={Safety of Vision-Language-Action Models: A Survey from Lifecycle Perspectives},
+  author={Yuan, Wei and Liu, Fengwen and Wei, Ruize and Wang, Zongwei and Gao, Yuan and Huang, Hu and Fang, Binxing and Liao, Qing},
+  journal={Authorea Preprints},
+  year={2026},
+  publisher={Authorea}
 }
-``` -->
+```
