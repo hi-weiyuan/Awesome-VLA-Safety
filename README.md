@@ -5,7 +5,7 @@
 
 ---
 
-This repository provides a **comprehensive and structured resource** for VLA safety, based on our survey:   
+This repository provides a **comprehensive and structured resource** for Vision-Language-Action (VLA) safety, based on our survey:   
 📄 **[Safety of Vision-Language-Action Models: A Survey from Lifecycle Perspectives](https://www.authorea.com/doi/full/10.22541/au.177524426.60806944/v1)**  
 
 ---
@@ -25,45 +25,28 @@ In this repository, the safety in VLA systems is defined as the ability to learn
 
 ---
 
-## 🤝 Contribution
-
-We welcome contributions to improve this repository!
-
-If you have relevant papers, feel free to submit a pull request:
-
-```
-| venue'year | [paper_name](link) | Authors | [[code]](code_link) |
-```
-
----
 
 ## 📚 Contents
 
-- [Relevant Survey](#-relevant-survey)
-- [Taxonomy](#-taxonomy)
-- [Data Safety](#-data-safety)
-- [Training Safety](#-training-safety)
-- [Deployment Safety](#-deployment-safety)
-- [Contact](#-contact)
-
----
-
-## 📄 Relevant Survey
-
-| Venue | Title | Year | Authors | Code |
-| - | - | - | - | - |
-| Preprint | [Safety of Vision-Language-Action Models: A Comprehensive Survey](#) | 2026 | Yuan et al. | [Link](https://github.com/hi-weiyuan/VLA-Safety-Papers)
-| Preprint | [Vision-Language-Action (VLA) Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769) | 2025 | Sapkota et al. | [Link](https://github.com/Applied-AI-Research-Lab/Vision-Language-Action-Models-Concepts-Progress-Applications-and-Challenges)
-| Preprint | [Large VLM-based Vision-Language-Action Models for Robotic Manipulation: A Survey](https://arxiv.org/abs/2508.13073) | 2025 | Shao et al. | [Link](https://github.com/JiuTian-VL/Large-VLM-based-VLA-for-Robotic-Manipulation)
-| Preprint | [Parallels Between VLA Model Post-Training and Human Motor Learning: Progress, Challenges, and Trends](https://arxiv.org/abs/2506.20966) | 2025 | Xiang et al. | [Link](https://github.com/AoqunJin/Awesome-VLA-Post-Training)
-| Preprint | [A Survey on Vision-Language-Action Models: An Action Tokenization Perspective](https://arxiv.org/abs/2507.01925) | 2025 | Zhong et al. | None
-| Preprint | [Vision Language Action Models in Robotic Manipulation: A Systematic Review](https://arxiv.org/abs/2507.10672) | 2025 | Din et al. | [Link](https://github.com/Muhayyuddin/VLAs)
-| Preprint | [Pure vision language action (vla) models: A comprehensive survey](https://arxiv.org/abs/2509.19012) | 2025 | Zhang et al. | None
-| Preprint | [A Survey on Efficient Vision-Language-Action Models](https://arxiv.org/abs/2510.24795) | 2025 | Yu et al. | [Link](https://evla-survey.github.io/)
-| Preprint | [A Survey on Vision-Language-Action Models for Autonomous Driving](https://arxiv.org/abs/2506.24044) | 2025 | Jiang et al. | [Link](https://github.com/JohnsonJiang1996/Awesome-VLA4AD)
-| IEEE Access | [Vision-Language-Action Models for Robotics: A Review Towards Real-World Applications](https://arxiv.org/abs/2510.07077) | 2025 | Kawaharazuka et al. | [Link](https://vla-survey.github.io/)
-| Preprint | [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) | 2024 | Ma et al. | [Link](https://github.com/yueen-ma/Awesome-VLA)
-
+- [Awesome VLA Safety Papers](#awesome-vla-safety-papers)
+  - [📢 Latest Updates](#-latest-updates)
+  - [📚 Contents](#-contents)
+  - [🧠 Taxonomy](#-taxonomy)
+  - [📄 Relevant Survey](#-relevant-survey)
+- [🗂 Data Safety](#-data-safety)
+  - [Training Data Poisoning](#training-data-poisoning)
+  - [Data Scarcity](#data-scarcity)
+  - [Data Quality](#data-quality)
+- [📈 Training Safety](#-training-safety)
+  - [Pretraining-Inherited \& Finetuning Risks](#pretraining-inherited--finetuning-risks)
+  - [Inappropriate Objective Design](#inappropriate-objective-design)
+  - [Generalization Gap](#generalization-gap)
+- [🚀 Deployment Safety](#-deployment-safety)
+  - [Deployment-Time Attacks](#deployment-time-attacks)
+  - [External Uncertainty](#external-uncertainty)
+  - [Inappropriate Use](#inappropriate-use)
+- [📬 Citation](#-citation)
+  - [🤝 Contribution](#-contribution)
 
 ---
 
@@ -89,6 +72,27 @@ The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 </p>
 
 ---
+
+## 📄 Relevant Survey
+
+| Venue | Title | Year | Authors | Code |
+| - | - | - | - | - |
+| Preprint | [Safety of Vision-Language-Action Models: A Comprehensive Survey](#) | 2026 | Yuan et al. | [Link](https://github.com/hi-weiyuan/VLA-Safety-Papers)
+| Preprint | [Vision-Language-Action (VLA) Models: Concepts, Progress, Applications and Challenges](https://arxiv.org/abs/2505.04769) | 2025 | Sapkota et al. | [Link](https://github.com/Applied-AI-Research-Lab/Vision-Language-Action-Models-Concepts-Progress-Applications-and-Challenges)
+| Preprint | [Large VLM-based Vision-Language-Action Models for Robotic Manipulation: A Survey](https://arxiv.org/abs/2508.13073) | 2025 | Shao et al. | [Link](https://github.com/JiuTian-VL/Large-VLM-based-VLA-for-Robotic-Manipulation)
+| Preprint | [Parallels Between VLA Model Post-Training and Human Motor Learning: Progress, Challenges, and Trends](https://arxiv.org/abs/2506.20966) | 2025 | Xiang et al. | [Link](https://github.com/AoqunJin/Awesome-VLA-Post-Training)
+| Preprint | [A Survey on Vision-Language-Action Models: An Action Tokenization Perspective](https://arxiv.org/abs/2507.01925) | 2025 | Zhong et al. | None
+| Preprint | [Vision Language Action Models in Robotic Manipulation: A Systematic Review](https://arxiv.org/abs/2507.10672) | 2025 | Din et al. | [Link](https://github.com/Muhayyuddin/VLAs)
+| Preprint | [Pure vision language action (vla) models: A comprehensive survey](https://arxiv.org/abs/2509.19012) | 2025 | Zhang et al. | None
+| Preprint | [A Survey on Efficient Vision-Language-Action Models](https://arxiv.org/abs/2510.24795) | 2025 | Yu et al. | [Link](https://evla-survey.github.io/)
+| Preprint | [A Survey on Vision-Language-Action Models for Autonomous Driving](https://arxiv.org/abs/2506.24044) | 2025 | Jiang et al. | [Link](https://github.com/JohnsonJiang1996/Awesome-VLA4AD)
+| IEEE Access | [Vision-Language-Action Models for Robotics: A Review Towards Real-World Applications](https://arxiv.org/abs/2510.07077) | 2025 | Kawaharazuka et al. | [Link](https://vla-survey.github.io/)
+| Preprint | [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) | 2024 | Ma et al. | [Link](https://github.com/yueen-ma/Awesome-VLA)
+
+
+---
+
+
 
 
 # 🗂 Data Safety
@@ -256,7 +260,7 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | EMNLP | [Do What? Teaching Vision-Language-Action Models to Reject the Impossible](https://arxiv.org/abs/2508.16292) | 2025 | Hsieh et al. | None
 
 
-# 📬 Contact
+# 📬 Citation
 
 For questions or suggestions, please open an issue.
 
@@ -270,3 +274,15 @@ If you feel the repository and survey are helpful, please cite us ~
   publisher={Authorea}
 }
 ```
+
+## 🤝 Contribution
+
+We welcome contributions to improve this repository!
+
+If you have relevant papers, feel free to submit a pull request:
+
+```
+| venue'year | [paper_name](link) | Authors | [[code]](code_link) |
+```
+
+---
