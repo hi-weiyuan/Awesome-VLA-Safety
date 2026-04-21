@@ -8,17 +8,18 @@
 This repository provides a **comprehensive and structured resource** for VLA safety, based on our survey:   
 📄 **[Safety of Vision-Language-Action Models: A Survey from Lifecycle Perspectives](https://www.authorea.com/doi/full/10.22541/au.177524426.60806944/v1)**  
 
+---
+
 **Vision-Language-Action (VLA) models** enable embodied agents to perceive, reason, and act in real-world environments through unified end-to-end multimodal policies.  
 As VLA models are increasingly deployed in real-world environments, **ensuring their safety has become a critical concern**, as failures or malicious behaviors may lead to severe physical harm and broader societal consequences.
 
 **The Scope of Safety in This Survey.**
-In this repository, safety refers to the ability to avoid unintended, harmful, or unsafe outcomes throughout the lifecycle of the VLA system. 
-This includes not only preventing incorrect or unsafe behaviors during task execution, but also mitigating risks (e.g., privacy, ethics, and other broader impacts on humans, environemtns, and society) during the development of the system.
-From this perspective, safety encompasses two key aspects: security and reliability. 
+In this repository, the safety in VLA systems is defined as the ability to learn a reliable mapping from multimodal observations and instructions to effective actions, avoiding the unsafe behaviors, harmful consequences, and degraded system reliability.
 
 
 ## 📢 Latest Updates
 
+[21/04/2026] Update the taxonomy and add some new papers.  
 [29/03/2026] Repo initialized.  
   
 
@@ -74,10 +75,10 @@ We organize VLA safety from a **lifecycle perspective**:
 - **Model Training → Training Safety**
 - **System Deployment → Deployment Safety**
 
-Each stage is further divided into:
+<!-- Each stage is further divided into:
 
 - 🔴 **Adversarial Scenarios**
-- 🟢 **Non-adversarial Scenarios**  
+- 🟢 **Non-adversarial Scenarios**   -->
 
 The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 <p align="center">
@@ -92,8 +93,7 @@ The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 
 # 🗂 Data Safety
 
-## Adversarial Scenarios
-### Training Data Poisoning  
+## Training Data Poisoning  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
 | Preprint | [SilentDrift: Exploiting Action Chunking for Stealthy Backdoor Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2601.14323) | 2026 | Xu et al. | None
@@ -105,15 +105,14 @@ The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 | NIPS | [BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization](https://openreview.net/forum?id=rEhVHla9zp) | 2025 | Zhou et al. | [Link](https://github.com/Zxy-MLlab/BadVLA)
 | Preprint | [Goal-oriented Backdoor Attack against Vision-Language-Action Models via Physical Objects](https://arxiv.org/abs/2510.09269) | 2025 | Zhou et al. | [Link](https://goba-attack.github.io/)
 
-### Training Data Privacy  
+<!-- ### Training Data Privacy  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
 | Preprint | [pFedNavi: Structure-Aware Personalized Federated Vision-Language Navigation for Embodied AI](https://arxiv.org/abs/2602.14401) | 2026 | Yang et al. | None
 | Agentic AI | [Agentic Surgical AI: Surgeon Style Fingerprinting and Privacy Risk Quantification via Discrete Diffusion in a Vision-Language-Action Framework](https://link.springer.com/chapter/10.1007/978-3-032-06004-4_2) | 2025 | Zhan et al. | [Link](https://github.com/huixin-zhan-ai/Surgeon_style_fingerprinting)
-| ICCV | [Fedvla: Federated vision-language-action learning with dual gating mixture-of-experts for robotic manipulation](https://arxiv.org/abs/2508.02190) | 2025 | Miao et al. | None
+| ICCV | [Fedvla: Federated vision-language-action learning with dual gating mixture-of-experts for robotic manipulation](https://arxiv.org/abs/2508.02190) | 2025 | Miao et al. | None -->
 
-## Non-adversarial Scenarios
-### Data Scarcity  
+## Data Scarcity  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
 | CVPR | [World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training](https://arxiv.org/abs/2509.24948) | 2026 | Xiao et al. | [Link](https://github.com/amap-cvlab/world-env)
@@ -132,7 +131,7 @@ The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 | Preprint | [AR-VRM: Imitating Human Motions for Visual Robot Manipulation with Analogical Reasoning](https://arxiv.org/abs/2508.07626) | 2025 | Yang et al. | [Link](https://github.com/idejie/ar)
 | RSS | [Universal Manipulation Interface: In-The-Wild Robot Teaching Without In-The-Wild Robots](https://arxiv.org/abs/2507.15597) | 2024 | Chi et al. | [Link](https://umi-gripper.github.io/)
 
-### Data Quality  
+## Data Quality  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
 |IEEE RA-L | [PointVLA: Injecting the 3D World Into Vision-Language-Action Models](https://arxiv.org/abs/2503.07511) | 2026 | Li et al. | [Link](https://pointvla.github.io/)
@@ -151,8 +150,7 @@ The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 
 # 📈 Training Safety
 
-## Adversarial Scenarios
-### Pretraining-Inherited & Finetuning Risks  
+## Pretraining-Inherited & Finetuning Risks  
 Note: most data poisoning attacks need to revise the training process to strengthen their adversarial effects. Therefore, this part may have large overlaps with [Training Data Poisoning](#training-data-poisoning).
 
 | Venue | Title | Year | Authors | Code |
@@ -164,8 +162,7 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | NIPS | [Backdooralign: Mitigating fine-tuning based jailbreak attack with backdoor enhanced safety alignment](https://proceedings.neurips.cc/paper_files/paper/2024/hash/094324f386c836c75d4a26f3499d2ede-Abstract-Conference.html) | 2024 | Wang et al. | None
 
 
-## Non-adversarial Scenarios
-### Inappropriate Objective Design  
+## Inappropriate Objective Design  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
 | AAAI | [Continuous Vision-Language-Action Co-Learning with Semantic-Physical Alignment for Behavioral Cloning](https://ojs.aaai.org/index.php/AAAI/article/view/39677) | 2026 | Renz et al. | [Link](https://qhemu.github.io/CCoL/)
@@ -177,7 +174,7 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | Preprint | [A framework for benchmarking and aligning task-planning safety in llm-based embodied agents](https://arxiv.org/abs/2504.14650) | 2025 | Huang et al. | None
 | ICRA | [GRAPE: Generalizing Robot Policy via Preference Alignment](https://openreview.net/pdf?id=W64vwmZHdK) | 2025 | Huang et al. | None
 
-### Generalization Gap  
+## Generalization Gap  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
 | NMI | [What matters in building vision–language–action models for generalist robots](https://ieeexplore.ieee.org/abstract/document/11128823) | 2026 | Li et al. | [Link](http://robovlms.github.io/)
@@ -196,10 +193,10 @@ Note: most data poisoning attacks need to revise the training process to strengt
 
 # 🚀 Deployment Safety
 
-## Adversarial Scenarios
-### Deployment-Time Attacks  
+## Deployment-Time Attacks  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
+| Preprint | [HazardArena: Evaluating Semantic Safety in Vision–Language–Action Models](https://arxiv.org/pdf/2604.12447) | 2026 | Chen et al. | None
 | AAAI | [Phantom Menace: Exploring and Enhancing the Robustness of VLA Models Against Physical Sensor Attacks](https://arxiv.org/abs/2511.12149) | 2026 | Lu et al. | [Link](https://github.com/ZJUshine/Phantom-Menace)
 | ICRA | [Jailbreaking llm-controlled robots](https://arxiv.org/abs/2411.09153) | 2025 | Robey et al. | [Link](https://robopair.org)
 | CVPR | [Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction](https://arxiv.org/abs/2504.14588) | 2025 | XIa et al. | [Link](https://github.com/GeWu-Lab/Motion-based-Self-Reflection-Framework)
@@ -213,7 +210,7 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | IEEE TETC | [Janus: A trusted execution environment approach for attack detection in industrial robot controllers](https://openreview.net/forum?id=4FpuOMoxsX&noteId=4FpuOMoxsX) | 2024 | Longari et al. | None
 | Preprint | [A Self-Correcting Vision-Language-Action Model for Fast and Slow System Manipulation](https://arxiv.org/abs/2405.17418) | 2024 | Li et al. | None
 
-### Deployment Privacy  
+<!-- ### Deployment Privacy  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
 | Preprint | [Improved Semantic Segmentation from Ultra-Low-Resolution RGB Images Applied to Privacy-Preserving Object-Goal Navigation](https://arxiv.org/abs/2507.16034) | 2025 | Huang et al. | [Link](https://github.com/hxy-0818/ULR2SS)
@@ -223,12 +220,10 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | NeurIPS | [Position: Human-Robot Interaction in Embodied Intelligence Demands a Shift From Static Privacy Controls to Dynamic Learning](https://arxiv.org/abs/2509.19041) | 2025 | Zhang et al. | None
 | IJSR | [Is the Robot Spying on me? A Study on Perceived Privacy in Telepresence Scenarios in a Care Setting with Mobile and Humanoid Robots](https://link.springer.com/article/10.1007/s12369-024-01153-x) | 2024 | Agraz et al. | None
 | ICRA | [Privacy Risks in Reinforcement Learning for Household Robots](https://ieeexplore.ieee.org/abstract/document/10610832) | 2024 | Li et al. | None
-| IROS | [Privacy-Preserving Robot Vision with Anonymized Faces by Extreme Low Resolution](https://ieeexplore.ieee.org/document/8967681) | 2019 | Kim et al. | [Link](https://github.com/myeungun/ORB-SLAM2)
+| IROS | [Privacy-Preserving Robot Vision with Anonymized Faces by Extreme Low Resolution](https://ieeexplore.ieee.org/document/8967681) | 2019 | Kim et al. | [Link](https://github.com/myeungun/ORB-SLAM2) -->
 
 
-
-## Non-adversarial Scenarios
-### System Risks  
+## External Uncertainty  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
 | Preprint | [Xiaomi-Robotics-0: An Open-Sourced Vision-Language-Action Model with Real-Time Execution](https://arxiv.org/abs/2602.12684) | 2026 | Li et al. | [Link](https://xiaomi-robotics-0.github.io/)
@@ -246,7 +241,7 @@ Note: most data poisoning attacks need to revise the training process to strengt
 | IROS | [DoReMi: Grounding Language Model by Detecting and Recovering from Plan-Execution Misalignment](https://arxiv.org/abs/2307.00329) | 2024 | Guo et al. | [Link](https://sites.google.com/view/doremi-paper)
 | CoRL | [Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners](https://arxiv.org/abs/2401.12963) | 2023 | Ren et al. | [Link](https://robot-help.github.io/)
 
-### User-Centric Risks  
+## Inappropriate Use  
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
 | RCIM | [VLAbot: A human Vision–Language–Action models interaction framework for robotic assembly](https://www.sciencedirect.com/science/article/pii/S0736584526000475) | 2026 | Wang et al. | None
