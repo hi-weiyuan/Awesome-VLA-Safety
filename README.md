@@ -17,7 +17,7 @@ As VLA models are increasingly deployed in real-world environments, **ensuring t
 In this repository, the safety in VLA systems is defined as the ability to learn a reliable mapping from multimodal observations and instructions to effective actions, avoiding the unsafe behaviors, harmful consequences, and degraded system reliability.
 
 
-## 📢 Latest Updates
+# 📢 Latest Updates
 
 [21/04/2026] Update the taxonomy and add some new papers.  
 [29/03/2026] Repo initialized.  
@@ -26,13 +26,13 @@ In this repository, the safety in VLA systems is defined as the ability to learn
 ---
 
 
-## 📚 Contents
+# 📚 Contents
 
 - [Awesome VLA Safety Papers](#awesome-vla-safety-papers)
-  - [📢 Latest Updates](#-latest-updates)
-  - [📚 Contents](#-contents)
-  - [🧠 Taxonomy](#-taxonomy)
-  - [📄 Relevant Survey](#-relevant-survey)
+- [📢 Latest Updates](#-latest-updates)
+- [📚 Contents](#-contents)
+- [🧠 Taxonomy](#-taxonomy)
+- [📄 Relevant Survey](#-relevant-survey)
 - [🗂 Data Safety](#-data-safety)
   - [Training Data Poisoning](#training-data-poisoning)
   - [Data Scarcity](#data-scarcity)
@@ -46,11 +46,11 @@ In this repository, the safety in VLA systems is defined as the ability to learn
   - [External Uncertainty](#external-uncertainty)
   - [Inappropriate Use](#inappropriate-use)
 - [📬 Citation](#-citation)
-  - [🤝 Contribution](#-contribution)
+- [🤝 Contribution](#-contribution)
 
 ---
 
-## 🧠 Taxonomy
+# 🧠 Taxonomy
 
 We organize VLA safety from a **lifecycle perspective**:
 
@@ -73,7 +73,7 @@ The following figure shows lifecycle-oriented taxonomy of our VLA safety survey.
 
 ---
 
-## 📄 Relevant Survey
+# 📄 Relevant Survey
 
 | Venue | Title | Year | Authors | Code |
 | - | - | - | - | - |
@@ -262,8 +262,6 @@ Note: most data poisoning attacks need to revise the training process to strengt
 
 # 📬 Citation
 
-For questions or suggestions, please open an issue.
-
 If you feel the repository and survey are helpful, please cite us ~ 
 ```bibtex
 @article{yuan2026safety,
@@ -275,7 +273,7 @@ If you feel the repository and survey are helpful, please cite us ~
 }
 ```
 
-## 🤝 Contribution
+# 🤝 Contribution
 
 We welcome contributions to improve this repository!
 
